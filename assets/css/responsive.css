@@ -1,0 +1,154 @@
+@media all and (min-width:1200px){
+    .header-right{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+@media all and (max-width:1200px){
+    .toggle-menu .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .header-right {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        position: absolute;
+        top: 105px;
+        right: 0;
+        z-index: 99;
+        background: #fff;
+        width: 100%;
+        height: 400px;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .social-icon-area ul {
+        padding: 28px 0;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .menu ul li:first-child:after {
+        display: none;
+    }
+    .menu ul li {
+        position: relative;
+        margin-bottom: 16px;
+    }
+    .social-icon-area ul li a {
+        font-size: 3.5rem;
+    }
+    .contact-btn {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    /* Bannar Ahape */
+    .baner-content span:after {
+        bottom: -92px;
+    }
+}
+@media all and (max-width:990px){
+    /* Bannar Area */
+    .baner-image img {
+        max-width: 100%;
+        margin-top: 3.5rem;
+    }
+    .shape {
+        top: -145px;
+        right: -209px;
+        height: 14rem;
+        width: 32rem;
+    }
+    .baner-content {
+        position: relative;
+        z-index: 9;
+    }
+    .mt--2{
+        margin-bottom: 15rem;
+    }
+    .m-b{
+        margin-bottom: 0;
+    }
+    .baner-content span:after {
+        bottom: -88px;
+    }
+    .image-content {
+        margin-bottom: 5rem;
+        margin-top: 15px;
+    }
+    .footer{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .footer-middle-area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        border-left: 0;
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        margin-bottom: 3rem;
+        padding-left: 0;
+    }
+    .footer-left-area ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .footer-left-area ul li a {
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .footer-middle-right {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footer-social-icon ul li a {
+        font-size: 3.5rem;
+    }
+}
+@media all and (max-width:767px){
+    .shape-two {
+        bottom: -9rem;
+        right: 4rem;
+        height: 12rem;
+        width: 12rem;
+    }
+    .news-image img {
+        height: 26rem;
+        width: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    .news-area {
+        margin-bottom: 2rem;
+    }
+    .single-service,.single-news {
+        margin: 0 20px;
+    }
+}
+@media all and (max-width:480px){
+    .baner-content span:after {
+        bottom: -136px;
+    }
+}
